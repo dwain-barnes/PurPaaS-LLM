@@ -61,7 +61,7 @@ streamlit run main.py
 combines three powerful technologies:
 - **OpenAI Swarm**: Handles agent communication and conversation flow
 - **Ollama**: Provides local inference capabilities for various open-source language models
-- **Streamlit**: Creates the beautiful gradient UI and handles real-time updates
+- **Streamlit**: Creates the beautiful UI and handles real-time updates
 
 ## Troubleshooting 🔍
 
