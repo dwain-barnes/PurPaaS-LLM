@@ -50,7 +50,43 @@ Purple teaming combines:
 
 ### Quick Start:
 ```bash
-git clone [repository-url]
+git clone https://github.com/dwain-barnes/PurPaaS-LLM/
 cd purpaas
 pip install -r requirements.txt
 streamlit run main.py
+
+## Technical Architecture 🏗️
+
+combines three powerful technologies:
+- **OpenAI Swarm**: Handles agent communication and conversation flow
+- **Ollama**: Provides local inference capabilities for various open-source language models
+- **Streamlit**: Creates the beautiful gradient UI and handles real-time updates
+
+## Troubleshooting 🔍
+
+Common issues and solutions:
+
+1. **Model Loading Errors**:
+   - Ensure Ollama is running (`ollama serve`)
+   - Check available models (`ollama list`)
+   - Verify model is downloaded (`ollama pull model_name`)
+
+2. **Conversation Stalls**:
+   - Check Ollama service status
+   - Monitor system resources
+   - Try restarting the application
+
+3. **Model Switching Issues**:
+   - Clear chat history before switching models
+   - Ensure both models are fully downloaded
+   - Check model compatibility
+
+## License 📄
+
+MIT License - feel free to use this project however you'd like!
+
+## Acknowledgments 🙏
+
+- Built with [OpenAI Swarm](https://github.com/openai/swarm)
+- Powered by [Ollama](https://ollama.ai/)
+- Created with [Streamlit](https://streamlit.io/)
