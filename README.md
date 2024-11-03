@@ -54,8 +54,9 @@ git clone https://github.com/dwain-barnes/PurPaaS-LLM/
 cd purpaas
 pip install -r requirements.txt
 streamlit run main.py
+```
 
-## Technical Architecture 🏗️
+### Technical Architecture 🏗️
 
 combines three powerful technologies:
 - **OpenAI Swarm**: Handles agent communication and conversation flow
