@@ -9,6 +9,8 @@ Purple teaming combines:
 - 🔵 Blue Team (Defensive) - Real-time analysis and vulnerability assessment
 - 🟣 Purple Team Integration - Synchronized offensive and defensive testing for comprehensive security evaluation
 
+![Agent Selection Tab](agents.png)
+
 ### Key Features:
 
 - **Local-First Architecture**: 
@@ -43,8 +45,12 @@ Purple teaming combines:
   - Real-time test monitoring
   - Interactive results visualization
 
+
+![Target LLM](target.png)
+
+
 ### Requirements:
-- Python 3.8+
+- Python 3.10+
 - Ollama
 - Required Python packages (see requirements.txt)
 
