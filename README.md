@@ -3,6 +3,8 @@
 
 PurPaaS is an innovative open-source security testing platform that implements purple teaming (combined red and blue team approaches) to evaluate local LLM models through Ollama. By orchestrating autonomous agents, PurPaaS provides comprehensive security assessment of locally deployed AI models.
 
+![main](main.png)
+
 ### What is Purple Teaming?
 Purple teaming combines:
 - 🔴 Red Team (Offensive) - Autonomous prompt injection and security testing
