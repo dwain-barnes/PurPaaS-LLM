@@ -1,0 +1,9 @@
+git+ssh://git@github.com/openai/swarm.git
+streamlit>=1.28.0
+pandas>=2.0.0
+nest-asyncio>=1.5.8
+requests>=2.31.0
+python-dateutil>=2.8.2
+tqdm>=4.66.1  
+colorlog>=6.7.0 
+python-dotenv>=1.0.0
