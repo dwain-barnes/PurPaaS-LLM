@@ -193,7 +193,7 @@ async def run_test_with_chat_updates(prompt, security_system, client):
 
 # Setup Page
 if not st.session_state.setup_complete:
-    st.title("🛡️ Security Testing Setup")
+    st.title("🛡️ PurPaaS LLM Testing Setup")
     
     tab1, tab2, tab3, tab4 = st.tabs(["Target Configuration", "Agent Models", "Test Settings", "Download Models"])
     
@@ -436,7 +436,7 @@ if not st.session_state.setup_complete:
 
 # Testing Dashboard
 else:
-    st.title("🛡️ Security Testing Dashboard")
+    st.title("🛡️ PurPaaS LLM Dashboard")
     
     # Initialize security testing system
     security_system = SecurityTestingSystem()
@@ -584,4 +584,4 @@ else:
                     st.error(f"Error exporting results: {str(e)}")
 
 if __name__ == "__main__":
-    logging.info("🚀 Starting Security Testing Application")
+    logging.info("🚀 Starting PurPaaS LLM Application")
